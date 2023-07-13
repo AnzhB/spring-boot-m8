@@ -11,9 +11,16 @@
 	<groupId>com.example</groupId>
 	<artifactId>spring-boot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>pom</packaging>
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
+	<modules>
+		<module>t1</module>
+		<module>t2</module>
+		<module>t3</module>
+		<module>t5</module>
+		<module>t7</module>
+	</modules>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
